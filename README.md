@@ -6,7 +6,7 @@ The **Yield Estimation** project is designed to estimate crop yields using advan
 
 ## Features
 - **Crop Stage Detection**: SAVI, NDVI and NDRE Remote sensing indices have taken into consideration to input stagewise values of crop.
-- **Yield Prediction**: Estimates the expected yield based on various input parameters (SAVI, NDVI, NDRE, Min and Max Temp, APAR, Rainfall and land surface temperature) and        these meteorological parameters have extracted from NASA POWER Portal.
+- **Yield Prediction**: Estimates the expected yield based on various input parameters (SAVI, NDVI, NDRE, Min and Max Temp, APAR, Rainfall and land surface temperature) and these meteorological parameters have extracted from NASA POWER Portal.
 - **Data Visualization**: Visualizes crop data for better insights and understanding with the help of matplotlib
 - **Integration with Google Earth Engine**: Utilizes satellite imagery for accurate crop monitoring and extraction of remote sensing indices.
 
@@ -18,6 +18,7 @@ The **Yield Estimation** project is designed to estimate crop yields using advan
 - Pandas
 - SciPy
 - Scikit-learn
+- STAC API (Element-84)
 
 ## Getting Started
 
